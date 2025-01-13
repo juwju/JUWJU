@@ -1,0 +1,15 @@
+{
+    "tasks": {
+      "dev": "vite", // Lance le serveur Vite en mode développement
+      "build": "vite build", // Construit le projet SvelteKit
+      "preview": "vite preview" // Prévisualise la version construite
+    },
+    "compilerOptions": {
+      "lib": ["ES2020", "DOM", "DOM.Iterable"]
+    },
+    "imports": {
+      "@tauri-apps/api": "npm:@tauri-apps/api@^2",
+      "@sveltejs/kit": "./node_modules/@sveltejs/kit" // Si nécessaire pour résoudre des modules locaux
+    }
+  }
+  

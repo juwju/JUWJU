@@ -1,0 +1,29 @@
+{
+  "name": "juwju",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
+  "dependencies": {
+    "@tauri-apps/cli": "^2.2.4"
+  },
+  "devDependencies": {
+    "storybook": "^8.4.7",
+    "@storybook/svelte": "^8.4.7",
+    "@storybook/sveltekit": "^8.4.7",
+    "@storybook/blocks": "^8.4.7",
+    "@storybook/addon-svelte-csf": "^4.2.0",
+    "@storybook/addon-essentials": "^8.4.7",
+    "@chromatic-com/storybook": "^3.2.3",
+    "@storybook/test": "^8.4.7",
+    "@storybook/addon-interactions": "^8.4.7"
+  }
+}
